@@ -1,0 +1,67 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.avatarProfile{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.ReviewComment{
+    font-style: italic;
+}
+.ReviewAuthor{
+    font-weight: bold;
+    color: #f0a202;
+}
+.ContainerHeader{
+  background-color: #DCDCDD;
+  background-image: url('/img/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.25);
+
+  margin-top: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: #f0a202 !important;
+  }
+  
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #f0a202 !important;
+      color:#FFF !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  }
+  .accordion-header button{
+    font-weight: bold;
+  }
+  
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+  }
+  
+  form{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .form-control{
+    border: none;
+    border-bottom: 2px solid #f0a202;
+  }
+  .form-control:focus {
+    border-color: #f0a202;
+    box-shadow: 0px 0px 10px 0px #f0a102;
+
+  }
+  .icono{
+    margin-right: 10px;
+  }
